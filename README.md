@@ -65,9 +65,13 @@ gulp build
 
 The server needs to be rebuilt to embed new client builds.
 
-For development with hot reloading enabled run:
+For development with hot reloading start the frontend:
 ```bash
 gulp
+dispatch --dev
+```
+and the backend in a separate terminal:
+```bash
 dispatch --dev
 ```
 
